@@ -1,3 +1,5 @@
+This project is used for practicing with react-hooks. Modelled after freeCodeCamp's project found at: https://medium.freecodecamp.org/building-a-calculator-with-react-hooks-and-react-context-api-debcabbc5f54
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

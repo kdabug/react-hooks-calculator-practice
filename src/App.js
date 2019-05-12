@@ -1,11 +1,11 @@
 import React from "react";
+import Calculator from "./components/Calculator";
+import NumberProvider from "./components/NumberProvider";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">Hi</header>
-    </div>
-  );
-}
+const App = () => (
+  <NumberProvider>
+    <Calculator />
+  </NumberProvider>
+);
 
 export default App;
