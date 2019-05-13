@@ -1,7 +1,7 @@
 import React from "react";
 
-const ButtonName = ({ buttonValue }) => {
+const FunctionButton = ({ buttonValue }) => {
   return <button type="button">{buttonValue}</button>;
 };
 
-export default ButtonName;
+export default FunctionButton;
