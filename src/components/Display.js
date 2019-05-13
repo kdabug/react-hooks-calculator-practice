@@ -9,7 +9,7 @@ const Display = () => {
       <h2>{!number.length && !storedNumber ? "0" : number || storedNumber}</h2>
       <p>
         {!storedNumber
-          ? "ENTER SOME NUMBERS"
+          ? "ENTER NUMBERS"
           : `${storedNumber} ${functionType} ${number}`}
       </p>
     </DisplayStyles>
